@@ -314,14 +314,17 @@
 			            return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
 			        },
 
-			        addCaptionHTMLFn: function(item, captionEl, isFake) {
+/*			        
+					//We don't need this caption so it is commented out. //
+
+					addCaptionHTMLFn: function(item, captionEl, isFake) {
 						if(!item.title) {
 							captionEl.children[0].innerText = '';
 							return false;
 						}
 						captionEl.children[0].innerHTML = item.title +  '<br/><small>Photo: ' + item.author + '</small>';
 						return true;
-			        }
+			        }*/
 					
 			    };
 
