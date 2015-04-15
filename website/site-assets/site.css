@@ -286,6 +286,7 @@ img {
   max-width: 100%;
   height: auto;
   border: 0;
+  object-fit: cover;
 }
 
 
@@ -470,7 +471,7 @@ p, ul.text-list {
 
 
 .row {
-  max-width: 800px;
+  max-width: 1600px;
   margin: 24px auto;
   padding: 0 30px;
   position: relative;
@@ -687,7 +688,7 @@ img.img--with_border {
 
 
 .demo-gallery {
-  width: 100%;
+  width: 1060px;
   height: auto;
   float: left;
 }
@@ -704,7 +705,7 @@ img.img--with_border {
 
 
 a.demo-gallery__img--main {
-  width: auto;
+  width: 600px;
   height: auto;
 }
 
