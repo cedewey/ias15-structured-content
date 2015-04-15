@@ -282,9 +282,8 @@ margin-bottom: 26px;
 
 
 img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
+  width: 290px;
+  height: 290px;
   border: 0;
   object-fit: cover;
 }
@@ -688,17 +687,19 @@ img.img--with_border {
 
 
 .demo-gallery {
-  width: 1060px;
+  width: 1500px;
   height: auto;
   float: left;
+  overflow: hidden;
 }
 .demo-gallery a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   display: block;
   float: left;
-  margin: 0 12px 12px 0;
-  width: 171px;
+  margin: 0 12px 21px 0;
+  width: 290px;
+  height: 290px;
   line-height: 0;
 }
 
@@ -706,7 +707,13 @@ img.img--with_border {
 
 a.demo-gallery__img--main {
   width: 600px;
-  height: auto;
+  height: 600px;
+  object-fit: cover;
+}
+
+.demo-gallery__img--main img{
+  width: 600px;
+  height: 600px;
 }
 
 .ukraine-flag {
